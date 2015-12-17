@@ -1,0 +1,31 @@
+Struts.xml Result Type一覧参考
+http://codezine.jp/article/detail/3565
+
+MVCモデル Struts2概要
+http://si.comp.ae.keio.ac.jp/web_app_dev_material/app/framework/index.html
+MVC 【 Model-View-Controller 】 モデルビューコントローラ
+http://e-words.jp/w/MVC.html
+
+Java入門　コレクションとか参考になる
+http://www.javadrive.jp/start/
+
+JUnit入門その１[Eclipse4.4のJUnitプラグインの基本的な使い方]
+http://nanananande.helpfulness.jp/post-3141/
+
+セッション 【 session 】　用語辞典
+http://e-words.jp/w/%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3.html
+
+サルでもわかるGit入門
+http://www.backlog.jp/git-guide/
+Git初心者が見るべきサイトまとめ
+http://matome.naver.jp/odai/2136491451473222801
+http://nullnote.com/web/git/merge_rebase/
+
+Eclipseのショートカットキー
+http://so-zou.jp/software/tech/tool/ide/eclipse/shortcut/#no11
+Eclipse(エクリプス)良く使うショートカットキー
+http://www.shikaku-pass.com/sjcp6/eclipse-shortcutkey.html
+覚えないと仕事にならないeclipse ショートカットキー(Windows)
+http://qiita.com/toshi0383/items/1d2a990392998789062c
+新人研修でドヤ顔で披露したらウケたEclipseのショートカット集
+http://qiita.com/arai-wa/items/c2eb7387b5bf37b4ace4

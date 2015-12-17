@@ -1,0 +1,6 @@
+cmdで
+
+mysql --version
+
+
+でmysqlのバージョン出てくる

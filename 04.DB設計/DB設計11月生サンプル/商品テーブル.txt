@@ -1,0 +1,115 @@
+CREATE TABLE IF NOT EXISTS ITEM_TABLE(
+-- ¤•iID
+item_id int not null primary key auto_increment,
+-- ¤•i–¼
+item_name varchar(255) not null,
+-- ‰¿Ši
+item_price int not null default "1",
+-- İŒÉ
+item_stock int not null default "0",
+-- ‰æ‘œƒpƒX
+item_img varchar(255) not null default "img/noimage.jpg"
+);
+
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('àÚÕ', 2790, 27, 'img/liquor1.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img)  
+VALUES ('“ç“‡', 2980, 12, 'img/liquor10.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img)  
+VALUES ('‹v•Û“c', 3900, 4, 'img/liquor2.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img)  
+VALUES ('”ªŠCR', 2490, 39, 'img/liquor3.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('•—´', 2790, 13, 'img/liquor4.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('ŒÃ“s', 2590, 27, 'img/liquor5.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('‹e…‚ÌhŒû', 2980, 12, 'img/liquor6.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('ãŠìŒ³', 1900, 24, 'img/liquor7.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('\l‘ã', 4900, 19, 'img/liquor8.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('‰‹Ê', 2790, 13, 'img/liquor9.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img)
+VALUES ('á’†”~', 2790, 15, 'img/liquor11.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('•Ÿõ', 2980, 52, 'img/liquor12.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('‹e•P', 1900, 43, 'img/liquor13.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('o‰H÷', 490, 18, 'img/liquor14.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('—§R', 2790, 33, 'img/liquor15.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('‚ç‘ã', 2790, 17, 'img/liquor16.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('”ªb“c', 2980, 19, 'img/liquor17.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('á’ß', 1900, 14, 'img/liquor18.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('’[‘é', 490, 20, 'img/liquor19.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock, item_img) 
+VALUES ('t‰ÄHá', 2790, 31, 'img/liquor20.jpg');
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚P', 2790, 27);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚Q', 2980, 12);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚R', 1900, 4);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚S', 490, 89);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚T', 2790, 13);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚U', 2790, 27);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚V', 2980, 12);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚W', 1900, 24);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚Q‚X', 490, 89);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚O', 2790, 13);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚P', 2790, 17);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚Q', 2980, 16);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚R', 1900, 21);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚S', 490, 39);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚T', 2790, 15);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚U', 2790, 27);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚V', 2980, 32);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚W', 1900, 14);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚R‚X', 490, 89);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚O', 2790, 13);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚P', 2790, 27);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚Q', 2980, 12);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚R', 1900, 4);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚S', 490, 89);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚T', 2790, 13);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚U', 2790, 27);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚V', 2980, 12);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚W', 1900, 21);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚S‚X', 490, 49);
+INSERT INTO  ITEM_TABLE (item_name, item_price, item_stock) 
+VALUES ('“ú–{ğ‚T‚O', 2790, 13);
+
+
